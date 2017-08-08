@@ -18,3 +18,11 @@
 // console.log(cap_phrase);
 
 //Page
+jQuery(document).ready(function() {
+  jQuery("h1").click(function() {
+  alert("This is a header.");
+  });
+
+  jQuery("button").click(function() {
+  alert("This is a bitton.");
+});
